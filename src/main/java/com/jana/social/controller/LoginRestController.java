@@ -10,5 +10,10 @@ public class LoginRestController {
 	public String index(){
 		return "Welcome to Spring Boot";
 	}
+	
+	@RequestMapping("/login")
+	public String login(){
+		return "Login Redirection Comes here";
+	}
 
 }
